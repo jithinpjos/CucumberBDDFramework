@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25561779100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Google Page validation",
+        "description": "",
+        "id": "validation-of-google-search-result;google-page-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 554047800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 156213300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2487545600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open chrome browser and enter url",
+            "match": {
+              "location": "LandingPageStepDef.open_chrome_browser_and_enter_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2073859100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Search text",
+            "match": {
+              "location": "LandingPageStepDef.enter_the_Search_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4856249200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the Search button",
+            "match": {
+              "location": "LandingPageStepDef.click_on_the_Search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76636600,
+              "error_message": "org.junit.ComparisonFailure: Software testing expected:\u003c[Software Test]ing\u003e but was:\u003c[Actual and expected are not match]ing\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.project.qa.StepDefinitions.LandingPageStepDef.click_on_the_result_and_Validating_the_result_page(LandingPageStepDef.java:41)\r\n\tat ✽.Then Click on the result and Validating the result page(src/test/resources/Features/HomePage.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Click on the result and Validating the result page",
+            "match": {
+              "location": "LandingPageStepDef.click_on_the_result_and_Validating_the_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Google search result",
+    "description": "",
+    "id": "validation-of-google-search-result",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/HomePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@RegressionTesting"
+      }
+    ]
+  }
+]
