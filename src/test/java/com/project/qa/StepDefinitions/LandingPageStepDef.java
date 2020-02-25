@@ -36,9 +36,10 @@ public class LandingPageStepDef {
 	@Then("^Click on the result and Validating the result page$")
 	public void click_on_the_result_and_Validating_the_result_page() throws Throwable {
 		
-		String Expected="SoftwareTesting";
+		String Expected="Full Stack QA";
 	    String Actual=LandingPage.getFirstHeading();
-	    Assert.assertEquals(Actual, Expected,"Actual and expected are not matching");
+	    System.out.println(Actual);
+	    Assert.assertEquals("Actual and expected are not matching", Expected,Actual);
 	}
 
 }

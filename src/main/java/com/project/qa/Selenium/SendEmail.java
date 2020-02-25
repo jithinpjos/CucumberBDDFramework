@@ -15,10 +15,10 @@ public class SendEmail {
 
 	public static void mailsend(String file1) throws IOException {
 
-		final String username = "suyatitest4@gmail.com";
-		final String password = "Suyati123";
+		final String username = "from@mail.com";
+		final String password = "Password";
 
-		String MAIL_RECEPIENT = "jpjose@suyati.com"; //For smoke test
+		String MAIL_RECEPIENT = "to@mail.com"; //For smoke test
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", true);
@@ -35,9 +35,9 @@ public class SendEmail {
 		try {
 			String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("suyatitest4@gmail.comm"));
+			message.setFrom(new InternetAddress("tomail@gmail.comm"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(MAIL_RECEPIENT));
-			message.setSubject("Test Result Of NthDegree");
+			message.setSubject("Test Result");
 			message.setText("Test result generated at :" + timeStamp);
 
 			// MimeBodyPart messageBodyPart = new MimeBodyPart();

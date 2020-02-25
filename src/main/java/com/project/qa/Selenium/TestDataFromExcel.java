@@ -8,10 +8,10 @@ import com.project.qa.Utilities.utility;
 public class TestDataFromExcel {
 	
 	public static String getLineOfBusiness() throws IOException {
-		return DataInExcel.readExcel("Opportunities", 0, 1);
+		return DataInExcel.readExcel("Sheet1", 0, 1);
 	}
 	public static String getShowNameFromExcel() throws IOException {
-		return DataInExcel.readExcel("Show", 0, 1);	
+		return DataInExcel.readExcel("Sheet2", 0, 1);	
 		
 	}
 	public static String getShowName() throws IOException {
@@ -19,7 +19,7 @@ public class TestDataFromExcel {
 		return ShowName;
 	}
 	public static String getJurisdictionState() throws IOException {
-		return DataInExcel.readExcel("Show", 1, 1);
+		return DataInExcel.readExcel("Sheet3", 1, 1);
 	}
 
 }

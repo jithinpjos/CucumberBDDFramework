@@ -28,12 +28,12 @@ public class LandingPage {
 	@FindBy(how=How.XPATH,using="//*[@id='firstHeading']")
 	public WebElement TestingWikihead;
 	
-	@FindBy(how=How.PARTIAL_LINK_TEXT,using="testing - Wikipedia")
-	public WebElement TestingWikiLink;
+	@FindBy(how=How.PARTIAL_LINK_TEXT,using="Full Stack QA")
+	public WebElement TestingLink;
 	
 	public void searchInGoogle() {
 		
-		SearchBox.sendKeys("testing");
+		SearchBox.sendKeys("fullstackqa.blogspot");
 		SearchButton.submit();
 		
 	}
@@ -43,11 +43,11 @@ public class LandingPage {
 		driver.get(FileReaderManager.getInstance().getConfigReader().applicationURL());
 	}
 	public String getFirstHeading() {
-		String Title=TestingWikihead.getText();
+		String Title=driver.getTitle();
 		return Title;
 	}
 	
 	public void navigateToWikiPage() {
-		TestingWikiLink.click();
+		TestingLink.click();
 	}
 }

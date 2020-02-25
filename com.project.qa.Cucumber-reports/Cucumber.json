@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 25561779100,
+              "duration": 14140990500,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 554047800,
+              "duration": 100800,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 156213300,
+              "duration": 224860600,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2487545600,
+              "duration": 5118969100,
               "status": "passed"
             },
             "line": 4,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 2073859100,
+              "duration": 2346985100,
               "status": "passed"
             },
             "line": 5,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 4856249200,
+              "duration": 3605930300,
               "status": "passed"
             },
             "line": 6,
@@ -79,9 +79,8 @@
           },
           {
             "result": {
-              "duration": 76636600,
-              "error_message": "org.junit.ComparisonFailure: Software testing expected:\u003c[Software Test]ing\u003e but was:\u003c[Actual and expected are not match]ing\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.project.qa.StepDefinitions.LandingPageStepDef.click_on_the_result_and_Validating_the_result_page(LandingPageStepDef.java:41)\r\n\tat ✽.Then Click on the result and Validating the result page(src/test/resources/Features/HomePage.feature:7)\r\n",
-              "status": "failed"
+              "duration": 19975000,
+              "status": "passed"
             },
             "line": 7,
             "name": "Click on the result and Validating the result page",

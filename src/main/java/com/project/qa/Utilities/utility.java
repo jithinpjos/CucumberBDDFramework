@@ -79,10 +79,4 @@ public class utility {
 		
 	}
 	
-	public static String getShowName() {
-		String DateTime = getCurrentDateWithTime();
-		String ShowName = "Am Meteorological Soc "+DateTime;
-		return ShowName;
-	}
-
 }

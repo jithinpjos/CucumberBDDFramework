@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 25561779100,
+  "duration": 14140990500,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,37 +48,36 @@ formatter.match({
   "location": "LandingPageStepDef.open_chrome_browser_and_enter_url()"
 });
 formatter.result({
-  "duration": 2487545600,
+  "duration": 5118969100,
   "status": "passed"
 });
 formatter.match({
   "location": "LandingPageStepDef.enter_the_Search_text()"
 });
 formatter.result({
-  "duration": 2073859100,
+  "duration": 2346985100,
   "status": "passed"
 });
 formatter.match({
   "location": "LandingPageStepDef.click_on_the_Search_button()"
 });
 formatter.result({
-  "duration": 4856249200,
+  "duration": 3605930300,
   "status": "passed"
 });
 formatter.match({
   "location": "LandingPageStepDef.click_on_the_result_and_Validating_the_result_page()"
 });
 formatter.result({
-  "duration": 76636600,
-  "error_message": "org.junit.ComparisonFailure: Software testing expected:\u003c[Software Test]ing\u003e but was:\u003c[Actual and expected are not match]ing\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.project.qa.StepDefinitions.LandingPageStepDef.click_on_the_result_and_Validating_the_result_page(LandingPageStepDef.java:41)\r\n\tat ✽.Then Click on the result and Validating the result page(src/test/resources/Features/HomePage.feature:7)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 554047800,
+  "duration": 19975000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 156213300,
+  "duration": 100800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 224860600,
   "status": "passed"
 });
 });

@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.766331">
-<testcase classname="Validation of Google search result" name="Google Page validation" time="35.766331">
-<failure message="org.junit.ComparisonFailure: Software testing expected:&lt;[Software Test]ing&gt; but was:&lt;[Actual and expected are not match]ing&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.project.qa.StepDefinitions.LandingPageStepDef.click_on_the_result_and_Validating_the_result_page(LandingPageStepDef.java:41)&#13;&#10;&#9;at ✽.Then Click on the result and Validating the result page(src/test/resources/Features/HomePage.feature:7)&#13;&#10;"><![CDATA[Given Open chrome browser and enter url.....................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.457811">
+<testcase classname="Validation of Google search result" name="Google Page validation" time="25.457811">
+<system-out><![CDATA[Given Open chrome browser and enter url.....................................passed
 And Enter the Search text...................................................passed
 When Click on the Search button.............................................passed
-Then Click on the result and Validating the result page.....................failed
-
-StackTrace:
-org.junit.ComparisonFailure: Software testing expected:<[Software Test]ing> but was:<[Actual and expected are not match]ing>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at com.project.qa.StepDefinitions.LandingPageStepDef.click_on_the_result_and_Validating_the_result_page(LandingPageStepDef.java:41)
-	at ✽.Then Click on the result and Validating the result page(src/test/resources/Features/HomePage.feature:7)
-]]></failure>
+Then Click on the result and Validating the result page.....................passed
+]]></system-out>
 </testcase>
 </testsuite>
